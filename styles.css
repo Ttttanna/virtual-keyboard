@@ -1,0 +1,65 @@
+h3 {
+  text-align: center;
+
+}
+.keyboard__window {
+  display: block;
+  resize: none;
+  width: 920px;
+  height: 90px;
+  margin: 10px auto;
+  color:#6A5ACD ;
+  font: bold, 16px;
+
+}
+.keyboard {
+  width: 920px;
+  padding: 5px 0;
+  padding-left: 10px;
+  /*background-color: darkcyan;  */
+  border: 5px solid black;
+  border-radius: 2px;
+  margin: 10px auto;
+  background-color: #191970;
+}
+/*.keyboard__keys {
+  text-align: center;
+}*/
+.keyboard__key {
+  height: 45px;
+  width: 56px;
+  margin: 3px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  outline: none; /* for mobile*/
+  font-size: 1.05rem;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.keyboard__key:hover {
+  transform: scale(1.1);
+}
+.keyboardkey__active {
+  background: rgba(255, 255, 255, 0.12);
+}
+.keyboard__key__wider {
+  width: 95px;
+}
+.enter {
+  width: 118px;
+}
+.shift {
+  width: 138px;
+}
+.keyboard__key__extra-wide {
+  width: 342px;  
+}
+.invisible {
+  display: none;  
+}
